@@ -28,7 +28,7 @@ print("\nGiá trị tại index=10 và cột Age:")
 if 10 in df_students.index:
     print(df_students.at[10, 'Age'])
 else:
-    print("⚠️ Không có index=10 trong DataFrame!")
+    print("Không có index=10 trong DataFrame!")
 
 # Hiển thị 2 cột Name và Score
 print("\nCột Name và Score:")
@@ -41,4 +41,3 @@ print(df_students)
 
 # Sắp xếp theo Score giảm dần
 print("\nSắp xếp theo Score giảm dần:")
-print(df_students.sort_values(by="Score", ascending=False))
